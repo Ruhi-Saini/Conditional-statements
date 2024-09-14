@@ -1,6 +1,6 @@
 function myFunction(){
     var greeting;
-    var time = new Date() -getHours();
+    var time = new Date().getHours();
 
     if (time < 10) {
         greeting = "Good morning";
